@@ -1,0 +1,1039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\parsedate">
+      <UniqueIdentifier>{3450b808-625a-4b99-9a3d-eb9ea83539b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\csscolorparser">
+      <UniqueIdentifier>{30fb2450-081d-49bd-878f-155469958852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl">
+      <UniqueIdentifier>{aca1c6ef-a017-4051-b7a1-03b35927114b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\util">
+      <UniqueIdentifier>{90728bb1-bc5c-4557-bd7f-d5a5cd1db9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\actor">
+      <UniqueIdentifier>{40aa2ce2-3acf-46d6-9ce6-ddac95f81e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\annotation">
+      <UniqueIdentifier>{92aa5a59-b6ab-45a9-aa35-4e9d0ca327ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\geometry">
+      <UniqueIdentifier>{28d1d329-37f6-4674-816f-909d99406d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\math">
+      <UniqueIdentifier>{2d890709-ca28-422d-a144-b635466f26d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\gfx">
+      <UniqueIdentifier>{901e9278-34ee-4a66-b816-8fd76e6412b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\layermanager">
+      <UniqueIdentifier>{fc97b728-d2d2-42c7-b64e-5b1732f607dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\tile">
+      <UniqueIdentifier>{3e8e182b-caff-43f6-9386-6ee3a0918035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\storage">
+      <UniqueIdentifier>{cf034fd6-901d-4889-806d-eb89cb713918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\style">
+      <UniqueIdentifier>{403e22f6-5cba-48d9-a59d-8a8792322083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\style\sources">
+      <UniqueIdentifier>{ef72a426-b951-4a97-b900-79de27730129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\style\layers">
+      <UniqueIdentifier>{441dbbff-c1fd-42d0-bce2-81846211d825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\style\expression">
+      <UniqueIdentifier>{86f36fa3-b525-4594-b6ad-ef10b974f141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\style\conversion">
+      <UniqueIdentifier>{448812af-f656-4d52-954d-36df872920e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\layout">
+      <UniqueIdentifier>{1793c789-7e66-46f6-bd55-2e43e39be6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\map">
+      <UniqueIdentifier>{aba38d0e-da3d-4415-bf45-3613bf0192d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\sprite">
+      <UniqueIdentifier>{c86943d5-6af3-4d89-819c-7376c854f40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\text">
+      <UniqueIdentifier>{c0f53fc6-6f24-4627-a2be-b99ed5f70596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\renderer">
+      <UniqueIdentifier>{94acdff2-491a-48c5-aa70-fbd9c9769277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\renderer\buckets">
+      <UniqueIdentifier>{084d9a73-96d3-4d48-b275-9ef96dfcf65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\renderer\sources">
+      <UniqueIdentifier>{f53717d3-bd9d-4de9-b5ff-3b01295908d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\renderer\layers">
+      <UniqueIdentifier>{0eadd390-3781-41fa-a69b-7d3f6b3aa719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\programs">
+      <UniqueIdentifier>{8a4736b6-cdc1-4c60-9a72-68ae72d2ba57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\programs\gl">
+      <UniqueIdentifier>{c46bb164-bdb4-4987-afae-762497a24cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mbgl">
+      <UniqueIdentifier>{32ad7293-f841-4f58-9657-eaac0dcad851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mbgl\programs">
+      <UniqueIdentifier>{89abee23-4bb6-42c4-a492-e4204368dfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\platform">
+      <UniqueIdentifier>{e02e1031-3671-4ef3-91b3-e5de5900f11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mbgl\gl">
+      <UniqueIdentifier>{6a6ada35-af8d-4fa4-9659-4795470d0e9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mbgl-core\src\parsedate\parsedate.cpp">
+      <Filter>Source Files\parsedate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\csscolorparser\csscolorparser.cpp">
+      <Filter>Source Files\csscolorparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\chrono.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\color.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\compression.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\constants.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\convert.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\dtoa.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\event.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\font_stack.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\geo.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\geojson_impl.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\grid_index.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\http_header.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\http_timeout.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\i18n.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\interpolate.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\intersection_tests.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\io.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\logging.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mapbox.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat2.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat3.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat4.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\premultiply.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\rapidjson.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\stopwatch.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\string.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\thread_pool.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tile_cover.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tile_cover_impl.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tiny_sdf.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\url.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\version.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\work_request.cpp">
+      <Filter>Source Files\mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\actor\mailbox.cpp">
+      <Filter>Source Files\mbgl\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\actor\scheduler.cpp">
+      <Filter>Source Files\mbgl\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_manager.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_source.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_tile.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\fill_annotation_impl.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\line_annotation_impl.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\render_annotation_source.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\shape_annotation_impl.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\symbol_annotation_impl.cpp">
+      <Filter>Source Files\mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\dem_data.cpp">
+      <Filter>Source Files\mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\feature_index.cpp">
+      <Filter>Source Files\mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\line_atlas.cpp">
+      <Filter>Source Files\mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\math\log2.cpp">
+      <Filter>Source Files\mbgl\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gfx\attribute.cpp">
+      <Filter>Source Files\mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gfx\renderer_backend.cpp">
+      <Filter>Source Files\mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\background_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\circle_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\custom_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\fill_extrusion_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\fill_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\heatmap_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\hillshade_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\layer_manager.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\line_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\raster_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\symbol_layer_factory.cpp">
+      <Filter>Source Files\mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\custom_geometry_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geojson_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile_data.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile_worker.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_dem_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_dem_tile_worker.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_tile_worker.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_cache.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_id_hash.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_id_io.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\vector_tile.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\vector_tile_data.cpp">
+      <Filter>Source Files\mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\file_source.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\network_status.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource_options.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource_transform.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\response.cpp">
+      <Filter>Source Files\mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\custom_tile_loader.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\filter.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\image.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\image_impl.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layer.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layer_impl.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\light.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\light_impl.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\parser.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\property_expression.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\source.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\source_impl.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\style.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\style_impl.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\types.cpp">
+      <Filter>Source Files\mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\assertion.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\at.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\boolean_operator.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\case.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\check_subtype.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\coalesce.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\coercion.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\collator_expression.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\comparison.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\compound_expression.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\dsl.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\expression.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\find_zoom_curve.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\format_expression.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\formatted.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\get_covering_stops.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\interpolate.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\is_constant.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\is_expression.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\length.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\let.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\literal.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\match.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\parsing_context.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\step.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\util.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\value.cpp">
+      <Filter>Source Files\mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\custom_geometry_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\custom_geometry_source_impl.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\geojson_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\geojson_source_impl.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\image_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\image_source_impl.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_dem_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_source_impl.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\vector_source.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\vector_source_impl.cpp">
+      <Filter>Source Files\mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\custom_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\custom_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer_impl.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer_properties.cpp">
+      <Filter>Source Files\mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\color_ramp_property_value.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\constant.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\coordinate.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\custom_geometry_source_options.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\filter.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\function.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\geojson.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\geojson_options.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\get_json_type.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\layer.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\light.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\position.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\property_value.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\source.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\tileset.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\transition_options.cpp">
+      <Filter>Source Files\mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\clip_lines.cpp">
+      <Filter>Source Files\mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\merge_lines.cpp">
+      <Filter>Source Files\mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_instance.cpp">
+      <Filter>Source Files\mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_layout.cpp">
+      <Filter>Source Files\mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_projection.cpp">
+      <Filter>Source Files\mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map.cpp">
+      <Filter>Source Files\mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map_impl.cpp">
+      <Filter>Source Files\mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map_options.cpp">
+      <Filter>Source Files\mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\transform.cpp">
+      <Filter>Source Files\mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\transform_state.cpp">
+      <Filter>Source Files\mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_loader.cpp">
+      <Filter>Source Files\mbgl\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_loader_worker.cpp">
+      <Filter>Source Files\mbgl\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_parser.cpp">
+      <Filter>Source Files\mbgl\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\check_max_angle.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\collision_feature.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\collision_index.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\cross_tile_symbol_index.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\get_anchors.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_atlas.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_manager.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_pbf.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\language_tag.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\placement.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\quads.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\shaping.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\tagged_string.cpp">
+      <Filter>Source Files\mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\backend_scope.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\bucket_parameters.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\cross_faded_property_evaluator.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\group_by_layout.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\image_atlas.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\image_manager.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\paint_parameters.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_layer.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_light.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_source.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_static_data.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_tile.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer_impl.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer_state.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\style_diff.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\tile_pyramid.cpp">
+      <Filter>Source Files\mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_background_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_circle_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_custom_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_fill_extrusion_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_fill_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_heatmap_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_hillshade_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_line_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_raster_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_symbol_layer.cpp">
+      <Filter>Source Files\mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\circle_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\debug_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\fill_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\fill_extrusion_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\heatmap_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\hillshade_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\line_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\raster_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\symbol_bucket.cpp">
+      <Filter>Source Files\mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_custom_geometry_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_geojson_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_image_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_raster_dem_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_raster_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_vector_source.cpp">
+      <Filter>Source Files\mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\background_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\circle_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\clipping_mask_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\collision_box_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\debug_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\fill_extrusion_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\fill_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\heatmap_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\heatmap_texture_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\hillshade_prepare_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\hillshade_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\line_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\program_parameters.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\programs.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\raster_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\symbol_program.cpp">
+      <Filter>Source Files\mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\background.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\background_pattern.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\circle.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\clipping_mask.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\collision_box.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\collision_circle.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\debug.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_extrusion.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_extrusion_pattern.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_outline.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_outline_pattern.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_pattern.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\heatmap.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\heatmap_texture.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\hillshade.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\hillshade_prepare.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_gradient.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_pattern.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_sdf.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\raster.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\shader_source.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\shaders.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_icon.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_sdf_icon.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_sdf_text.cpp">
+      <Filter>Source Files\mbgl\programs\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\platform\gl_functions.cpp">
+      <Filter>Source Files\mbgl\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\vertex_array.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\value.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\uniform.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\texture.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\renderer_backend.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\render_pass.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\offscreen_texture.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\object.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\enum.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\debugging_extension.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\context.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\command_encoder.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\binary_program.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\attribute.cpp">
+      <Filter>Source Files\mbgl\gl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

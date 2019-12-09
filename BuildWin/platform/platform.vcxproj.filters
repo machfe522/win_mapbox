@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\defalut">
+      <UniqueIdentifier>{6fe7bc07-76e2-48ef-9e14-552dac709a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defalut\text">
+      <UniqueIdentifier>{83538c9b-a9f7-462c-acfc-64f81e0cee31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defalut\layermanager">
+      <UniqueIdentifier>{4197b0b7-0f4c-46b1-9af2-0cd1835604c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defalut\map">
+      <UniqueIdentifier>{9eea34e2-eea1-41ea-aa45-f1a3cd348397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defalut\gl">
+      <UniqueIdentifier>{1faae425-7ef3-4775-97a3-4acac88f2486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{dbca2891-4db9-4d38-9bb1-054d01d184a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defalut\util">
+      <UniqueIdentifier>{37d88507-cceb-46ec-aaf1-bfa293f78f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\platform\default\src\mbgl\gl\headless_backend.cpp">
+      <Filter>Source Files\defalut\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\gl\headless_frontend.cpp">
+      <Filter>Source Files\defalut\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\map\map_snapshotter.cpp">
+      <Filter>Source Files\defalut\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\layermanager\layer_manager.cpp">
+      <Filter>Source Files\defalut\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\text\bidi.cpp">
+      <Filter>Source Files\defalut\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\text\collator.cpp">
+      <Filter>Source Files\defalut\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\text\local_glyph_rasterizer.cpp">
+      <Filter>Source Files\defalut\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\text\unaccent.cpp">
+      <Filter>Source Files\defalut\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\win32\src\gl_functions.cpp">
+      <Filter>Source Files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\async_task.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\image.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\jpeg_reader.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\logging_stderr.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\png_reader.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\png_writer.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\run_loop.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\string_stdlib.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\thread.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\thread_local.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\timer.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\platform\default\src\mbgl\util\utf.cpp">
+      <Filter>Source Files\defalut\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mbgl-core\src\csscolorparser\csscolorparser.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\actor\mailbox.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\actor\scheduler.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_manager.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\annotation_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\fill_annotation_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\line_annotation_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\render_annotation_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\shape_annotation_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\annotation\symbol_annotation_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\dem_data.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\feature_index.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\geometry\line_atlas.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gfx\attribute.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gfx\renderer_backend.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\attribute.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\binary_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\command_encoder.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\context.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\debugging_extension.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\enum.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\object.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\offscreen_texture.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\renderer_backend.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\render_pass.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\texture.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\uniform.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\value.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\gl\vertex_array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\background_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\circle_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\custom_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\fill_extrusion_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\fill_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\heatmap_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\hillshade_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\layer_manager.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\line_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\raster_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layermanager\symbol_layer_factory.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\clip_lines.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\merge_lines.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_instance.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_layout.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\layout\symbol_projection.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\map_options.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\transform.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\map\transform_state.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\math\log2.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\platform\gl_functions.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\background_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\circle_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\clipping_mask_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\collision_box_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\debug_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\fill_extrusion_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\fill_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\background.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\background_pattern.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\circle.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\clipping_mask.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\collision_box.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\collision_circle.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\debug.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_extrusion.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_extrusion_pattern.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_outline.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_outline_pattern.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\fill_pattern.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\heatmap.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\heatmap_texture.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\hillshade.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\hillshade_prepare.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_gradient.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_pattern.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\line_sdf.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\raster.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\shaders.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\shader_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_icon.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_sdf_icon.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\gl\symbol_sdf_text.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\heatmap_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\heatmap_texture_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\hillshade_prepare_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\hillshade_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\line_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\programs.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\program_parameters.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\raster_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\programs\symbol_program.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\backend_scope.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\circle_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\debug_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\fill_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\fill_extrusion_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\heatmap_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\hillshade_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\line_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\raster_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\buckets\symbol_bucket.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\bucket_parameters.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\cross_faded_property_evaluator.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\group_by_layout.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\image_atlas.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\image_manager.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_background_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_circle_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_custom_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_fill_extrusion_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_fill_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_heatmap_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_hillshade_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_line_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_raster_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\layers\render_symbol_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\paint_parameters.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\renderer_state.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_light.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_static_data.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\render_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_custom_geometry_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_geojson_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_image_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_raster_dem_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_raster_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\sources\render_vector_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\style_diff.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\renderer\tile_pyramid.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_loader.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_loader_worker.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\sprite\sprite_parser.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\file_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\network_status.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource_options.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\resource_transform.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\storage\response.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\color_ramp_property_value.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\constant.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\coordinate.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\custom_geometry_source_options.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\filter.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\function.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\geojson.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\geojson_options.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\get_json_type.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\light.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\position.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\property_value.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\tileset.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\conversion\transition_options.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\custom_tile_loader.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\assertion.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\at.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\boolean_operator.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\case.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\check_subtype.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\coalesce.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\coercion.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\collator_expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\comparison.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\compound_expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\dsl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\find_zoom_curve.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\formatted.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\format_expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\get_covering_stops.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\interpolate.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\is_constant.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\is_expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\length.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\let.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\literal.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\match.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\parsing_context.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\step.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\util.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\expression\value.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\filter.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\image.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\image_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\background_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\circle_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\custom_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\custom_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_extrusion_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\fill_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\heatmap_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\hillshade_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\line_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\raster_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layers\symbol_layer_properties.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\layer_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\light.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\light_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\parser.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\property_expression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\custom_geometry_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\custom_geometry_source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\geojson_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\geojson_source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\image_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\image_source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_dem_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\raster_source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\vector_source.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\sources\vector_source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\source_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\style.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\style_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\style\types.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\check_max_angle.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\collision_feature.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\collision_index.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\cross_tile_symbol_index.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\get_anchors.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_atlas.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_manager.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\glyph_pbf.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\language_tag.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\placement.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\quads.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\shaping.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\text\tagged_string.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\custom_geometry_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geojson_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile_data.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\geometry_tile_worker.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_dem_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_dem_tile_worker.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\raster_tile_worker.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_cache.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_id_hash.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\tile_id_io.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\vector_tile.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\tile\vector_tile_data.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\chrono.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\color.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\compression.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\constants.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\convert.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\dtoa.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\event.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\font_stack.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\geo.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\geojson_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\grid_index.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\http_header.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\http_timeout.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\i18n.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\interpolate.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\intersection_tests.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\io.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\logging.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mapbox.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat2.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat3.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\mat4.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\premultiply.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\rapidjson.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\stopwatch.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\string.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\thread_pool.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tile_cover.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tile_cover_impl.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\tiny_sdf.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\url.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\version.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\mbgl\util\work_request.cpp" />
+    <ClCompile Include="..\..\mbgl-core\src\parsedate\parsedate.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{69958C01-BF97-4385-8548-F238ABA369ED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sqlite</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;RAPIDJSON_HAS_STDSTRING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\mbgl-core\src;..\..\mbgl-core\include;..\..\vendor\boost\include;..\..\vendor\optional\include;..\..\vector-tile\include;..\..\vendor\geojson.hpp\include;..\..\vendor\geojson-vt-cpp\include;..\..\vendor\supercluster.hpp\include;..\..\vendor\kdbush.hpp\include;..\..\vendor\rapidjson\include;..\..\vendor\unique_resource;..\..\thridparty\include\zlib;..\..\vendor\wagyu\include;..\..\sqlite\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;RAPIDJSON_HAS_STDSTRING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\mbgl-core\src;..\..\mbgl-core\include;..\..\vendor\boost\include;..\..\vendor\optional\include;..\..\vector-tile\include;..\..\vendor\geojson.hpp\include;..\..\vendor\geojson-vt-cpp\include;..\..\vendor\supercluster.hpp\include;..\..\vendor\kdbush.hpp\include;..\..\vendor\rapidjson\include;..\..\vendor\unique_resource;..\..\thridparty\include\zlib;..\..\vendor\wagyu\include;..\..\sqlite\include; </AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

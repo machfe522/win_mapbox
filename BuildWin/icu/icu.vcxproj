@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\icu\include\unicode\bytestream.h" />
+    <ClInclude Include="..\..\icu\include\unicode\char16ptr.h" />
+    <ClInclude Include="..\..\icu\include\unicode\localpointer.h" />
+    <ClInclude Include="..\..\icu\include\unicode\platform.h" />
+    <ClInclude Include="..\..\icu\include\unicode\ptypes.h" />
+    <ClInclude Include="..\..\icu\include\unicode\putil.h" />
+    <ClInclude Include="..\..\icu\include\unicode\rep.h" />
+    <ClInclude Include="..\..\icu\include\unicode\std_string.h" />
+    <ClInclude Include="..\..\icu\include\unicode\stringoptions.h" />
+    <ClInclude Include="..\..\icu\include\unicode\stringpiece.h" />
+    <ClInclude Include="..\..\icu\include\unicode\ubidi.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uchar.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uclean.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uconfig.h" />
+    <ClInclude Include="..\..\icu\include\unicode\udata.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uiter.h" />
+    <ClInclude Include="..\..\icu\include\unicode\umachine.h" />
+    <ClInclude Include="..\..\icu\include\unicode\unistr.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uobject.h" />
+    <ClInclude Include="..\..\icu\include\unicode\urename.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uscript.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uset.h" />
+    <ClInclude Include="..\..\icu\include\unicode\ushape.h" />
+    <ClInclude Include="..\..\icu\include\unicode\ustring.h" />
+    <ClInclude Include="..\..\icu\include\unicode\utf.h" />
+    <ClInclude Include="..\..\icu\include\unicode\utf16.h" />
+    <ClInclude Include="..\..\icu\include\unicode\utf8.h" />
+    <ClInclude Include="..\..\icu\include\unicode\utf_old.h" />
+    <ClInclude Include="..\..\icu\include\unicode\utypes.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uvernum.h" />
+    <ClInclude Include="..\..\icu\include\unicode\uversion.h" />
+    <ClInclude Include="..\..\icu\src\cmemory.h" />
+    <ClInclude Include="..\..\icu\src\cstring.h" />
+    <ClInclude Include="..\..\icu\src\cwchar.h" />
+    <ClInclude Include="..\..\icu\src\mutex.h" />
+    <ClInclude Include="..\..\icu\src\putilimp.h" />
+    <ClInclude Include="..\..\icu\src\uassert.h" />
+    <ClInclude Include="..\..\icu\src\ubidiimp.h" />
+    <ClInclude Include="..\..\icu\src\ubidi_props.h" />
+    <ClInclude Include="..\..\icu\src\ubidi_props_data.h" />
+    <ClInclude Include="..\..\icu\src\uchar_props_data.h" />
+    <ClInclude Include="..\..\icu\src\ucln.h" />
+    <ClInclude Include="..\..\icu\src\ucln_cmn.h" />
+    <ClInclude Include="..\..\icu\src\ucmndata.h" />
+    <ClInclude Include="..\..\icu\src\udatamem.h" />
+    <ClInclude Include="..\..\icu\src\udataswp.h" />
+    <ClInclude Include="..\..\icu\src\uinvchar.h" />
+    <ClInclude Include="..\..\icu\src\umapfile.h" />
+    <ClInclude Include="..\..\icu\src\umutex.h" />
+    <ClInclude Include="..\..\icu\src\uprops.h" />
+    <ClInclude Include="..\..\icu\src\uset_imp.h" />
+    <ClInclude Include="..\..\icu\src\ustr_imp.h" />
+    <ClInclude Include="..\..\icu\src\utrie2.h" />
+    <ClInclude Include="..\..\icu\src\utrie2_impl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\icu\src\cmemory.cpp" />
+    <ClCompile Include="..\..\icu\src\cstring.cpp" />
+    <ClCompile Include="..\..\icu\src\ubidi.cpp" />
+    <ClCompile Include="..\..\icu\src\ubidiln.cpp" />
+    <ClCompile Include="..\..\icu\src\ubidiwrt.cpp" />
+    <ClCompile Include="..\..\icu\src\ubidi_props.cpp" />
+    <ClCompile Include="..\..\icu\src\uchar.cpp" />
+    <ClCompile Include="..\..\icu\src\udataswp.cpp" />
+    <ClCompile Include="..\..\icu\src\uinvchar.cpp" />
+    <ClCompile Include="..\..\icu\src\umath.cpp" />
+    <ClCompile Include="..\..\icu\src\ushape.cpp" />
+    <ClCompile Include="..\..\icu\src\ustring.cpp" />
+    <ClCompile Include="..\..\icu\src\utf_impl.cpp" />
+    <ClCompile Include="..\..\icu\src\utrie2.cpp" />
+    <ClCompile Include="..\..\icu\src\utypes.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5CA6C4C6-E61E-455C-870A-D2BE308E94BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sqlite</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\icu\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\icu\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
