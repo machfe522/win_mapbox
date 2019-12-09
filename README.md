@@ -1,3 +1,5 @@
 # win_mapbox
- [打开百度](http://www.baidu.com)
- [打开百度](http://www.baidu.com "打开度")
+## 编译说明：
+   1. 目前只有Visual Studio 2017工程文件。
+   2. 需要至少需要个10G的磁盘空间。 
+   3. 无需任何依赖，下载直接编译即可。
